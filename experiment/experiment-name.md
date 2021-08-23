@@ -1,1 +1,1 @@
-## Experiment name
+## Voltage Clamp Protocol 
