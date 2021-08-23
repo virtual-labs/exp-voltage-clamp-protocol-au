@@ -1,39 +1,82 @@
 {
   "version": 2.0,
   "questions": [
+    
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. TTX and TEA are abbreviation of __________and__________ ? ",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Tetraodontiformes and Tetraethyleneammonium",
+        "b": "Tetrodotoxin and Tetraethylammonium",
+        "c": "Tetraodontidae and Tetraethylaminoacid",
+        "d": "All the above"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+  
+
+
+    {
+      "question": "2. Voltage clamp technique is used to study: ",
+      "answers": {
+        "a": "Ion channel properties in excitable neurons",
+        "b": "Morphology of neuron",
+        "c": "Selecting a unique neuron",
+        "d": "Estimating size of synaptic potential"
+       
       },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
+
+
+
     {
-      "question": "This is a Sample Question 2?",
+      "question": "3. Voltage clamp measures _______ ",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "voltage",
+        "b": "conductance",
+        "c": "dynamics of channel state variables",
+        "d": "current"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+
+
+
+    {
+      "question": "4. Main two components of ionic current are: ",
+      "answers": {
+        "a": "Sodium currents and potassium current",
+        "b": "Sodium currents and leakage current",
+        "c": " Calcium currents and potassium current",
+        "d": "None of the above"
       },
-      "correctAnswer": "c",
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "5. Voltage clamp is used by electrophysiologists to measure the ________ currents across a neuronal membrane while holding the membrane voltage at a step level: ",
+      "answers": {
+        "a": "Capacitive",
+        "b": "Ionic",
+        "c": "Lithium",
+        "d": "Calcium"
+      },
+      
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
+
+
+
   ]
 }
