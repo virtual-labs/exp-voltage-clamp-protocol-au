@@ -1,0 +1,497 @@
+<!DOCTYPE html><html lang="en"><head>
+      <!--Google Tag Manager-->
+      <script class="gtm">
+        var dataLayer = [{
+        'labName': 'Virtual Lab',
+        'discipline': 'Test',
+        'college': 'AU',
+        'phase': 'Testing',
+        'expName': 'VOLTAGE CLAMP PROTOCOL',
+        'expShortName': 'voltage-clamp-protocol'
+        }];
+    
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5NMQ9NQ');
+      </script>
+      <!--End Google Tag Manager-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    
+    	<meta name="experiment-short-name" content="voltage-clamp-protocol">
+    	<meta name="developer-institute" content="AU">
+    	<meta name="learning-unit" content="VOLTAGE CLAMP PROTOCOL">
+    	<meta name="task-name" content="Theory">
+    
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#4076e0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4076e0">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4076e0">
+    <title>Virtual Labs</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/github-markdown.min.css">
+    <link rel="stylesheet" href="./assets/css/vlabs-style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.6-b/css/style.min.css">
+    
+    <script src="./assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <style>
+      h1 {
+      font-size: 1.8rem;
+      }
+      h2 {
+      font-size: 1.4rem;
+      }
+      h3 {
+      font-size: 1.2rem;
+      }
+
+      h2, h3 {
+      font-weight: 800;
+      }
+    </style>
+  </head>
+  <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
+      <!--Google Tag Manager (noscript)-->
+      <noscript class="gtm">
+        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-5NMQ9NQ" style="display:none;visibility:hidden" width="0">
+        </iframe>
+      </noscript>
+      <!--End Google Tag Manager (noscript)-->
+  
+      <header class="vlabs-header sticky-top bg-white">
+        <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
+          
+          <button class="navbar-toggler px-4" type="button" onclick="toggle()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="d-flex justify-content-center">        
+            <a href="https://vlab.co.in" class="navbar-brand">
+              <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+            </a>
+          </div>
+          
+          <div id="headerNavbar" class="d-none border-top flex-grow-1 d-lg-flex align-items-center">
+            <ul class="navbar-nav ml-auto text-center d-flex flex-md-row">
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in">HOME</a>
+              </li>
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in/participating-institutes">PARTNERS</a>
+              </li>
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in/contact-us">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+        <div class="row d-flex justify-content-between">
+          <div class="flex-column">
+		  <div class="row py-4 px-4 breadcrumbs">
+		  	<div class="title is-4 tools">Tools</div>
+		  	<span class="mx-2">
+		  		<i aria-hidden="true" class="fa fa-angle-right"></i>
+		  	</span>
+		  	<a href="performance-report.html" target="_blank">
+		  		<button class="v-button">Performance Tool</button>
+		  	</a>
+		  </div>
+	  </div>
+          <div class="flex-column">
+            <div id="plugin-bug-report"></div>
+            <div id="plugin-rating"></div>
+          </div>
+        </div>
+        <div class="row flex-grow-1 d-flex flex-nowrap flex-column flex-lg-row">
+          <div class="modal fade popupmenu" id="popupMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                              <a href="https://vlab.co.in" class="navbar-brand">
+                                  <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+                              </a>
+                          </h5>
+                          <button type="button" class="btn-close align-self-center" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body nav-menu">
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="index.html" class="p-2 ">
+                                      Aim
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="theory.html" class="p-2  current-item ">
+                                      Theory
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="pretest.html" class="p-2 ">
+                                      Pretest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="procedure.html" class="p-2 ">
+                                      Procedure
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="simulation.html" class="p-2 ">
+                                      Simulation
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="posttest.html" class="p-2 ">
+                                      Posttest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="references.html" class="p-2 ">
+                                      References
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="feedback.html" class="p-2 ">
+                                      Feedback
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="nav flex-column sidebar nav-menu flex-shrink-0 px-lg-4 align-items-center align-items-lg-start hidden d-none d-lg-flex" id="menu">
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="index.html" class="p-2 ">
+                        Aim
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="theory.html" class="p-2  current-item ">
+                        Theory
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="pretest.html" class="p-2 ">
+                        Pretest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="procedure.html" class="p-2 ">
+                        Procedure
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="simulation.html" class="p-2 ">
+                        Simulation
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="posttest.html" class="p-2 ">
+                        Posttest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="references.html" class="p-2 ">
+                        References
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="feedback.html" class="p-2 ">
+                        Feedback
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+          </div>          <div class="vlabs-page-content px-5 pb-4 flex-grow-1 markdown-body">
+            <div class="text-center fix-spacing">
+              <h2 id="voltage-clamp-protocol">Voltage Clamp Protocol</h2>
+          
+            </div>
+              <p>Classical neurophysiology studies of action potential leads to the important ionic hypothesis. The ideas and the concepts proved early days gave a strong basis for the development of experimental procedure called as Voltage Clamp technique by (Marmount, 1949; Cole, 1949; Hodgkin, Huxely and Kartz 1949,1952). The Voltage clamp has had been used as the best biophysical technique for the last few decades. Voltage clamp protocol can be used to study a minute patch of neuronal membrane sealed to the end of glass pipette by measuring the current. This method was the best basic biophysical technique used for studying the ion channels. Most of the classical electrophysiology work uses the protocol that, the current applied as a stimulus and measure the changes in the membrane potential. These applied current flow locally across the membrane as ionic and capacitive current. But in voltage clamp protocol reverses the process. For voltage clamp protocol study the membrane potential has to be keeping constant. Measuring the current by holding the membrane voltage constant for sometime then releases the membrane resting voltage. The advantage of this technique is, it can minimize the local spread of local circuit current, so that the observed current can be a direct measure of ionic movement across the membrane.</p>
+          <p>One might keep the membrane potential constant by connecting to an ideal battery across the bilipid membrane. The current would flow from the battery will be an exactly the current flowing across the membrane. This will keep the membrane potential constant. But an unpredictable voltage drop makes the circuit more complex. By adding another electrode near the   measuring electrode clamp with a feedback amplifier resolved this problem.</p>
+          <p>&nbsp;</p>
+          <center><img src="images/v1.jpg" title=""></center> 
+           
+          
+          <p>Fig 1. The schematic arrangements for voltage clamping cell membrane .</p>
+          <p>The voltage clamp apparatus consists of a Feedback Amplifier, a Voltage Amplifier, and an Ammeter. The Voltage Amplifier is connected to a Voltage Electrode implanted inside the neuronal membrane, and to the Feedback Amplifier. The Feedback Amplifier is connected to a Current Electrode (C. E.). Finally, a Ground Electrode completes the feedback and voltage circuits through an ammeter to ground. The Voltage Amplifier is responsible for monitoring the membrane potential, Vm, and transmitting its value to the Feedback Amplifier. The Feedback Amplifier is responsible for maintaining Vm at the value desired by the experimenter. The ammeter displays the magnitude and direction of current flow through the membrane (Im).</p>
+          <p>In a standard voltage clamp protocol the membrane potential is stepped from resting potential to a holding potential usually 10mV increment from Vr then stepped back to resting potential.  Through a graphical interface we gave the flexibility to the user to change the test, command and resting voltage (see fig 2). One might change these parameters by clicking and dragging on the brown spheres at the edges of the square wave to either of 4-directions according to student interest.</p>
+          <p>&nbsp;</p>
+          <center><img src="images/v2.jpg" title=""></center> 
+          Fig 2. Voltage clamp stimuli in milli volts.
+          
+          
+          
+          <p>Hodgkin and Huxley carried out the study towards the mechanism behind membrane potential in the giant axon of a squid. The diameter of the axon was around 0.5 milli meter. They had inserted a highly conductive axial wire inside the axon (this technique also called space clamp). This technique along with pharmacological application brought Hodgkin and Huxley to study membrane current into constituent’s components.</p>
+          <p>In a standard voltage clamp experiment, the membrane potential is holds for few milli second to depolarize level and then holds back to previous potential. This process is called as step the membrane potential. This change in membrane potential will produce a charge difference between the inside and outside of the membrane, which will further result in ionic movement across the membrane, till the voltage gets hold back. The measured membrane current Im would be the sum of Ii and Ic (see fig 5).</p>
+          <p>&nbsp;</p>
+          <center><img src="images/v3.jpg" title=""></center> 
+                                                                                                       Eq (1 and 2)
+          
+          
+          <p>Where Ii is the current carried by ions across the membrane, Ic is the capacitive current, dE/dt is the change in membrane potential, Cm is the membrane capacitance. Step changes in the membrane potential will measure only Ionic current, because of transition from one level to another, thus resulting in the change in membrane potential to zero.</p>
+          <p>Two major components of action potentials are voltage dependent ionic conductance of sodium (GNa) and  potassium (GK).And a third one is called leak conductance.</p>
+          <p>&nbsp;</p>
+          <center><img src="images/v4.jpg" title=""></center> 
+                                                                                            Eq (3)
+          
+          
+          <p>The individual ionic currents are linearly related to the driving potential. G ̅Na and G ̅K  are the maximum conductance of sodium and potassium.</p>
+          <p>&nbsp;</p>
+          <center><img src="images/v5.jpg" title=""></center> 
+          
+          <p> Fig 3. Electrical equivalent circuit for a patch of a squid axon.</p>
+          <p>In HH model of squid axon consists of four parallel branches, two passive: membrane capacitance and leak conductance; and two time dependent voltage gated Na+ and K+. The ionic current flowing across the membrane is measured quantitatively first time using the voltage clamp technique. Followed by two main observations put forward by Hodgkin and Huxley was that, 1) the currents carried by Na+ ions should be inward at potentials negative to equilibrium potential ENa and out ward at potential positive to ENa. The same logic was applied to other ions.2) particular ion was added or removed from the medium resulted in some signals were abolished. In 1952 Hodgkin and Huxley formulated an Independent relation that the probability of an ion cross the membrane does not depend upon the other ions.</p>
+          <p>The step changes in the potential have significant advantage in measuring ionic current (Ii) except at the moment of transition occur from one state to another, the capacitive current Ic stops flowing as soon as a small step change in membrane potential. There after the recorded current is ionic current (Ii) (see fig. 2, 3 and 6).</p>
+          <p> <strong>Major components of ionic currents are INa and IK</strong></p>
+          <p>The movement of sodium and potassium ions in and out of the membrane create outward membrane current as positive deflection(IK) and inward membrane current as negative deflection(INa) (see fig 4).</p>
+          <p>&nbsp;</p>
+          <center><img src="images/v6.jpg" title=""></center> 
+          
+          <p> Fig 4 . Measuring Na+ and K+ current from a voltage clamp setup</p>
+          <p><strong>Activation and inactivation states</strong></p>
+          <p>Hodgkin and Huxley discussed about the activation and inactivation of gating particles to describe the dynamics of conductance (see fig 6). These gating particles can either of two possible state open/close. Here we are answering the question how these activation and inactivation states determine the ionic currents.</p>
+          <p>&nbsp;</p>
+          <center><img src="images/v7.jpg" title=""></center> 
+          
+          <p>Fig 5. Red trace indicates the estimated total ionic current and voltage stimulus is indicated by blue trace.</p>
+          <p><strong>Potassium current IK</strong></p>
+          <p>In 1952 Hodgkin and Huxley modeled K+ current as:</p>
+          <p>&nbsp;</p>
+          <center><img src="images/v8.jpg" title=""></center> 
+                                                                        Eq (4)
+          
+          <p> Maximum  conductance of K+ channels, (G¯K )   = 36 mS/cm2</p>
+          <p>Reverse potential of potassium,  EK = -12 mV.</p>
+          <p>'n' is the state of activation particle, this activation variable is dimension less and its value range between 0 and 1. IK is considered as outward current always positive for V &gt; EK. Probability of finding one activation in its open state is n, and then n-1 will be the probability of finding an activation particle when gate is closed. Eq (6) states that in order to a K+ channels is changed to open state, four particles should be present. If we assuming these particles only have two states then the transition between the states will be governed by first order differential equation.</p>
+          <p>&nbsp;</p>
+          <center><img src="images/v9.jpg" title=""></center> 
+                                                                               Eq (5)
+          
+          
+          <p>αn is represent the voltage dependent rate constant (usually expressed in units of 1/second) it will specify how many transition occurs between the closed to open state.  βn is represent the number of transition occurs open to close status. The above equation can be written as a first order differential equation.</p>
+          <p>&nbsp;</p>
+          <center><img src="images/v10.jpg" title=""></center> 
+                                                                                    Eq (6)
+          
+          
+          <p>The most demanding part of Hodgkin and Huxley study was the quantitative description of rate constants. αn  and βn can be express in terms of voltage dependent time constant tn(V).</p>
+          <p>&nbsp;</p>
+          <center><img src="images/v11.jpg" title=""></center> 
+                                                                                     Eq (7)
+          
+          <p>where</p>
+          <p>&nbsp;</p>
+          <center><img src="images/v12.jpg" title=""></center>           
+          
+          
+          <p>&nbsp;</p>
+          <center><img src="images/v13.jpg" title=""></center> 
+                                                                                Eq (8)
+          
+          
+          <p>Steepness of relation between conductance and membrane potential as one of the most striking properties of squid membrane. Hodgkin and Huxley approximated the voltage depended of rate constant by :</p>
+          <p>&nbsp;</p>
+          <center><img src="images/v14.jpg" title=""></center> 
+          
+          <pre><code>                                                                                Eq (9 and 10)
+          </code></pre>
+          <p>V represents membrane potential expressed in milli volts (mV).</p>
+          <p>&nbsp;</p>
+          <center><img src="images/v15.jpg" title=""></center> 
+          
+          <p>Fig 6. Voltage dependent gating particles. As a function of membrane potential V, m represent sodium channel activation variable, h represent sodium channel inactivation variable, n represent the potassium channel inactivation variable.</p>
+          <p>&nbsp;</p>
+          <center><img src="images/v16.jpg" title=""></center> 
+          
+          <p>Fig 7. Estimated ionic currents, yellow trace indicate the sodium current (down ward) and magenta trace indicate the potassium current (upward).</p>
+          <p><strong>Sodium current INa</strong></p>
+          <p>The current of produced by sodium channel is given by :</p>
+          <p>&nbsp;</p>
+          <center><img src="images/v17.jpg" title=""></center> 
+                                                                                         Eq (11)
+          
+          
+          <p>Maximum sodium channel conductance is given by , G ̅Na = 120 mS/cm2 and sodium reversal potential, ENa = 115mV. m and h are dimension less variables who's values ranges from 0 to 1 (see fig 7). By convention , the Na+ current is taken as negative. The amplitude of Na+ current is for 4-gating particle , will make an independent first order transition between open and closed states. Temporal changes of these particles governed by two first order differential equation.</p>
+          <p>&nbsp;</p>
+          <center><img src="images/v18.jpg" title=""></center> 
+          
+          <pre><code>                                                                                                      Eq (12 and 13)
+          </code></pre>
+          <p>&nbsp;</p>
+          <center><img src="images/v19.jpg" title=""></center> 
+          
+          <pre><code>                                                                                                               Eq (14,15,16 and 17)
+          </code></pre>
+          
+          </div>
+        </div>
+      </div>
+      <footer class="text-light pt-2 vlabs-footer d-flex flex-column">
+        <div class="row px-5 mx-0">
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Community Links</span>
+            <a href="https://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a>
+            <a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a>
+            <a href="https://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Contact Us</span>
+            <span> Phone: General Information: 011-26582050 </span>
+            <span> Email: support@vlabs.ac.in </span>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Follow Us</span>
+            <div class="social-links">
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/TheVirtualLabs">
+      	  <i class="fa fa-twitter"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/">
+      	  <i class="fa fa-facebook"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0">
+      	  <i class="fa fa-youtube"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136">
+      	  <i class="fa fa-linkedin"></i>
+      	</a>
+            </div>
+          </div>
+        </div>
+        <div class="m-0 py-2 text-center" style="font-family: &quot;Open Sans&quot;, sans-serif; background: #212121;">
+          <a class="text-primary font-weight-bold" href="https://www.gnu.org/licenses/agpl-3.0.en.html"> AGPL 3.0 </a>
+          &nbsp;&amp;&nbsp;
+          <a class="text-primary font-weight-bold" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons (CC BY-NC-SA 4.0) </a>
+        </div>
+      </footer>
+
+      <script src="./assets/js/toggleSidebar.js"></script>
+      
+  
+
+<script type="module" src="https://vjspranav.github.io/vleads-bug-report/client/app.js"></script></body></html>
